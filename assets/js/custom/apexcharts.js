@@ -10643,13 +10643,13 @@
 			},
 			xaxis: {
 				categories: [
-					"Mon",
-					"Tue",
-					"Wed",
-					"Thu",
-					"Fri",
-					"Sat",
-					"Sun"
+					"Senin",
+					"Selasa",
+					"Rabu",
+					"Kamis",
+					"Jumat",
+					"Sabtu",
+					"Minggu"
 				],
 				axisTicks: {
 					show: false,
@@ -10672,7 +10672,7 @@
 				min: 0,
 				labels: {
 					formatter: (val) => {
-					    return '$' + val + ''
+					    return 'Rp' + val + ''
 					},
 					style: {
 						colors: "#64748B",
@@ -10691,7 +10691,7 @@
 			tooltip: {
 				y: {
 					formatter: function(val) {
-						return "$" + val + "k";
+						return "Rp" + val + "k";
 					}
 				}
 			},
