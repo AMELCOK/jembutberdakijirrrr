@@ -10606,11 +10606,11 @@
 
 			series: [
 				{
-					name: "Income",
+					name: "Pemasukan",
 					data: [40, 60, 50, 40, 45, 38, 42, 35, 45,]
 				},
 				{
-					name: "Expenses",
+					name: "Pengeluaran",
 					data: [60, 80, 90, 80, 60, 70, 60, 90, 60,]
 				},
 			],
@@ -10697,7 +10697,7 @@
 			},
 			legend: {
 				show: true,
-				position: 'bottom',
+				position: 'top',
 				fontSize: '12px',
 				horizontalAlign: 'center',
 				fontFamily: 'Inter',
